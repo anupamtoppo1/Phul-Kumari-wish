@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // --- Main Greeting Text ---
-    const name = "UPASANA";
+    const name = "PHUL";
     const wishingTextElement = document.getElementById("wishing-text");
     if (wishingTextElement) {
         wishingTextElement.innerText = `On this Raksha Bandhan, may our bond of love grow stronger! Happy Rakshabandhan, Dear ${name}`;
