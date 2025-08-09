@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Raksha Bandhan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Slideshow -->
+    <div class="slideshow-container">
+        <div class="slide" style="background-image: url('image1.jpg');"></div>
+        <div class="slide" style="background-image: url('image2.jpg');"></div>
+        <div class="slide" style="background-image: url('image3.jpg');"></div>
+        <div class="slide" style="background-image: url('image4.jpg');"></div>
+        <div class="slide" style="background-image: url('image5.jpg');"></div>
+    </div>
+
+    <!-- Semi-transparent Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Background Music -->
+    <audio id="background-music" src="song.mp3" autoplay loop></audio>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1 class="wishing-text" id="wishing-text"></h1>
+        <button id="thank-you-btn" onclick="openWhatsApp()">Thank Him</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
